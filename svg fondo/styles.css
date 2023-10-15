@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: red;
+    height: 700vh;
+}
+
+#wave{
+    position: fixed;
+    top: 0;
+    width: 280vw;
+    filter: invert(0%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+#wave2{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 280vw;
+    filter: invert(0%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
